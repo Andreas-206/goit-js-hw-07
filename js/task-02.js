@@ -36,3 +36,21 @@ const galleryItems = images
   .join("");
 
 galleryList.innerHTML = galleryItems;
+
+// const gallery = document.querySelector(".gallery");
+
+// const galleryItems = images.map((image) => {
+//   const li = document.createElement("li");
+//   li.classList.add("gallery-item");
+
+//   const img = document.createElement("img");
+//   img.src = image.url;
+//   img.alt = image.alt;
+
+//   li.appendChild(img);
+//   gallery.appendChild(li);
+
+//   return li;
+// });
+
+// gallery.append(...galleryItems);
